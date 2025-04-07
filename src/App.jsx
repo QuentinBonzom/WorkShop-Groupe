@@ -1,16 +1,23 @@
-import './App.css'
 
+import "./App.css";
+import React from "react";
+
+
+import Description from './components/description';
+import Header from "./components/header";
+import Footer from "./components/footer;
 import Services from "./components/services"
 
 function App() {
   return (
     <>
-      <div>
-        <Services />
-      </div>
-
+    <Header />
+    <Description />
+    <Services />
+    <Footer/>  
     </>
-  )
+  );
 }
 
-export default App
+
+export default App;
