@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import React from "react";
+
+
 
 const paragraphs = [
     "Tout a commencé sur une mer agitée de balises, de bugs et de lignes de code. Ensemble, nous avons ramé, souvent à contre-courant, mais toujours avec humour et entraide.",
@@ -15,9 +18,10 @@ const Description = () => {
         setIndex((index) => (index+1) % paragraphs.length);
     };
 
+// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
 useEffect (() => {
     const timer = setInterval(() => {
-        nextParagraph();
+        netxParagraphe();
     }, 5000);
     return () => clearInterval(timer) // Changer toute les 5sec
 }, []); 
@@ -25,7 +29,7 @@ useEffect (() => {
 
 return (
     <section>
-    <h1 class="text-center">L'histoire des Galériens </h1>
+    <h1 className="text-center">L'histoire des Galériens </h1>
 
     <div>
         <p>{paragraphs[index]}</p>
@@ -33,7 +37,7 @@ return (
 
     <button 
     type="button"
-    onClick={nextParagraph}>Suivant</button>
+    onClick={netxParagraphe}>Suivant</button>
 
 
 </section>

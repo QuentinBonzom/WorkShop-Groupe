@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import React from "react";
+
+
 
 function Footer() {
     const [alert, setAlert] = useState (false)
@@ -82,15 +85,18 @@ function Footer() {
                 className="w-full p-4 bg-gray-200 border border-gray-300 rounded-md shadow-sm"
                 placeholder="Votre message..."
                 name="message"
+                // @ts-ignore
                 rows="5"
                 required
-              ></textarea>
+              />
             </div>
   
             {/* Button Envoyer */}
             <div className="flex justify-center">
               <button
-                type="Envoyer"
+                // @ts-ignore
+                // biome-ignore lint/a11y/useButtonType: <explanation>
+                                type="Envoyer"
                 className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200"
                 onClick={handleSubmit}
               >
