@@ -1,12 +1,19 @@
-import './App.css'
+import "./App.css";
+import React from "react";
+
+
 import Description from './components/description';
+import Header from "./components/header";
 
 function App() {
   return (
-    <div className="App">
-      <Description />
-    </div>
-  );
-};
+    <>
+    <Description />
+      <Header />
 
-export default App
+    </>
+  );
+}
+
+
+export default App;
