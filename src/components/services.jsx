@@ -5,18 +5,18 @@ function services() {
     return (
 
         <div>
-            <h1 className="font-semibold text-2xl md:text-3xl lg:text-4xl lg:ml-10 ml-4">Nos Services</h1>
+            <h1 className="font-semibold text-2xl lg:text-3xl flex justify-center pb-1">Nos Services</h1>
             
-  <div className="flex flex-col lg:justify-center md:flex-row lg:flex-row lg:text-2xl xl:text-3xl  mt-4 font-bold space-y-4 lg:space-y-0 lg:space-x-4 lg:pb-5">
+  <div className="flex flex-col lg:justify-center md:flex-row lg:flex-row lg:text-2xl xl:text-3xl font-bold p-1 rounded-t-2xl bg-white gap-7 lg:gap-0 xl:gap-0">
     
 {/* /*FOURCHEST*/}
 
-  <div className="mx-6 rounded-2xl shadow-lg">
-  <video autoPlay muted loop className="w-full h-48 rounded-2xl">
+  <div className="mx-6 p-0.5 rounded-t-2xl bg-zinc-200 shadow-lg ">
+  <video autoPlay muted loop className="w-full h-48">
     <source src="./src/assets/fourchestvideo.mp4" type="video/mp4" />
     Votre navigateur ne supporte pas la lecture de vidéos.
   </video>
-  <div className="px-6 py-4 bg-zinc-100">
+  <div className="px-6 py-4 bg-zinc-200">
     <h3 className="text-xl flex justify-center font-semibold mb-2">Fourch'Est</h3>
     <p className="text-gray-600 text-sm">Site de livraison de plats traditionnels du Grand-Est...</p>
     <a 
@@ -30,12 +30,12 @@ function services() {
 
 {/* /TODOLIST*/}
     
-<div className="mx-6 rounded-2xl shadow-lg">
-  <video autoPlay muted loop className="w-full h-48 rounded-2xl">
+<div className="mx-6 p-0.5 rounded-t-2xl bg-zinc-200 shadow-lg">
+  <video autoPlay muted loop className="w-full h-48 ">
     <source src="./src/assets/todovideo.mp4" type="video/mp4" />
     Votre navigateur ne supporte pas la lecture de vidéos.
   </video>
-  <div className="px-6 py-4 bg-zinc-100">
+  <div className="px-6 py-4 bg-zinc-200">
     <h3 className="text-xl flex justify-center font-semibold mb-2">Todo List</h3>
     <p className="text-gray-600 text-sm">Site de Todo List pour une organisation parfaite...</p>
     <a 
@@ -49,12 +49,12 @@ function services() {
     
 {/* WILDEAT */}
 
-<div className="mx-6 rounded-2xl shadow-lg">
-  <video autoPlay muted loop className="w-full h-48 rounded-2xl">
+<div className="mx-6 p-0.5 rounded-t-2xl bg-zinc-200 shadow-lg">
+  <video autoPlay muted loop className="w-full h-48 ">
     <source src="./src/assets/wildeatvideo.mp4" type="video/mp4" />
     Votre navigateur ne supporte pas la lecture de vidéos.
   </video>
-  <div className="px-6 py-4 bg-zinc-100">
+  <div className="px-6 py-4 bg-zinc-200">
     <h3 className="text-xl flex justify-center font-semibold mb-2">Wild Eat</h3>
     <p className="text-gray-600 text-sm">Site d'une caféteria pour les étudiants d'une école...</p>
     <a 
