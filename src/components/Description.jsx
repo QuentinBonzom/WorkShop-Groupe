@@ -22,22 +22,25 @@ const Description = () => {
 useEffect (() => {
     const timer = setInterval(() => {
         netxParagraphe();
-    }, 5000);
-    return () => clearInterval(timer) // Changer toute les 5sec
+    }, 10000);
+    return () => clearInterval(timer) // Changer toute les 10sec
 }, []); 
 
 
 return (
-    <section>
-    <h1 className="text-center">L'histoire des Galériens </h1>
+    <section className="bg-[#101E2B] text-white text-center m-4 p-4 rounded fill-white drop-shadow-xl/25">
+    <h1 className=" p-3 text-2xl">L'histoire des Galériens </h1>
 
     <div>
         <p>{paragraphs[index]}</p>
     </div>
 
-    <button 
+<div className="p-3 w-full text-right">
+    <button  className="bg-white text-black px-4 rounded"
     type="button"
-    onClick={netxParagraphe}>Suivant</button>
+    onClick={netxParagraphe}>➔
+    </button>
+    </div>
 
 
 </section>
