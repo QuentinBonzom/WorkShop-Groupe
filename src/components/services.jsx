@@ -11,8 +11,8 @@ function services() {
     
 {/* /*FOURCHEST*/}
 
-  <div className="mx-6 p-0.5 rounded-t-2xl bg-zinc-200 shadow-lg ">
-  <video autoPlay muted loop className="w-full h-48">
+  <div className="mx-6 p-0.5 rounded-t-md bg-zinc-200 shadow-lg ">
+  <video autoPlay muted loop className="w-full h-48 rounded-md">
     <source src="./src/assets/fourchestvideo.mp4" type="video/mp4" />
     Votre navigateur ne supporte pas la lecture de vidéos.
   </video>
@@ -30,8 +30,8 @@ function services() {
 
 {/* /TODOLIST*/}
     
-<div className="mx-6 p-0.5 rounded-t-2xl bg-zinc-200 shadow-lg">
-  <video autoPlay muted loop className="w-full h-48 ">
+<div className="mx-6 p-0.5 rounded-t-md bg-zinc-200 shadow-lg">
+  <video autoPlay muted loop className="w-full h-48 rounded-md ">
     <source src="./src/assets/todovideo.mp4" type="video/mp4" />
     Votre navigateur ne supporte pas la lecture de vidéos.
   </video>
@@ -49,8 +49,8 @@ function services() {
     
 {/* WILDEAT */}
 
-<div className="mx-6 p-0.5 rounded-t-2xl bg-zinc-200 shadow-lg">
-  <video autoPlay muted loop className="w-full h-48 ">
+<div className="mx-6 p-0.5 rounded-t-md bg-zinc-200 shadow-lg">
+  <video autoPlay muted loop className="w-full h-48 rounded-md">
     <source src="./src/assets/wildeatvideo.mp4" type="video/mp4" />
     Votre navigateur ne supporte pas la lecture de vidéos.
   </video>
